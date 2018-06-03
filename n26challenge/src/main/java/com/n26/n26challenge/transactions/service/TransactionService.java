@@ -224,7 +224,7 @@ public class TransactionService {
 		long timeDiff  = 
 				(currentTime - timestamp ) /1000 ;
 		
-		//throw exception if the transaction in request is older than 60 seconds
+		//return if the transaction in request is older than 59 seconds
 		if(timeDiff > 59){
 			return false;
 		}
