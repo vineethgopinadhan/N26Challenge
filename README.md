@@ -6,4 +6,7 @@ It is a spring boot application which is serving below
 	:- Retrieve transaction statistics with in last 60 seconds 
 	:- Two endpoints /transactios and /statistics , both run based on an im memory solution
 	
-mvn command to run :-   spring-boot:run
+Commands :-
+mvn install
+
+mvn command to run application :-   spring-boot:run
